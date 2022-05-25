@@ -7,12 +7,18 @@
     <title>Test File</title>
     <style>
         h1{
-            display:none; /*disappears heading HELLO WORLD*/
+            /* display:none; disappears heading HELLO WORLD */
+            /* visibility: hidden; samething as above but the HELLO WORLD STILL TAKES UP THE SPACE */
+            color:blue;
+        }
+
+        .hello{
+            color:red;
         }
     </style>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <h1 class="hello">Hello World</h1><!--HAVING A "SPECIFIC CLASS WILL OVERRIDE THE H1 TAG ITSELF BECUASE IT IS "CLASSIFIED" AS "HELLO" look at interval of 3:11 of .34  ASIDE: VISIBILTY ORDER & NEGATIVE MARGIN to understand  -->
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo mollitia necessitatibus id, eius voluptas dignissimos consequatur amet deserunt? Aspernatur consequuntur quia, nam aliquam explicabo iure. Aut, sunt! Neque, minus eos?</p>
 </body>
 </html>
